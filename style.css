@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #4e6a6d;
+  color: white;
+  padding: 30px 20px;
+}
+
+.logo {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar li {
+  margin: 20px 0;
+}
+
+.sidebar a {
+  color: white;
+  text-decoration: none;
+}
+
+.content {
+  flex: 1;
+  background-color: #f4f4f4;
+  overflow-y: auto;
+}
+
+.hero {
+  position: relative;
+  height: 60vh;
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-text {
+  color: white;
+  text-align: center;
+  background: rgba(0,0,0,0.4);
+  padding: 20px 40px;
+  border-radius: 10px;
+}
+
+.hero-text h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.hero-text h2 {
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.notice, .main-section {
+  padding: 30px;
+}
+
+.notice h2, .main-section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #3a5f5f;
+}
+
+.notice p, .main-section p {
+  font-size: 16px;
+  color: #444;
+}
